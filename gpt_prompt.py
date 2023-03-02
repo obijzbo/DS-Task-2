@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "Insert API here"
 
 def get_recommended_fruits(party_on_weekends, flavor, disliked_texture, price_range):
     prompt = f"Please recommend some fruits based on the following preferences:\n1. Do you go out to party on weekends? {party_on_weekends}\n2. What flavors do you like? {flavor}\n3. What texture do you not like? {disliked_texture}\n4. What price range will you buy a drink for? {price_range}\nRecommended fruits:"
